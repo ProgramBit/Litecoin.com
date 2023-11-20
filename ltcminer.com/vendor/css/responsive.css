@@ -1,0 +1,164 @@
+
+/*Media query*/
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+
+section.banner_section .Welcome_txt h2 {font-size: 30px;}
+.custom_btn a{width:100%;font-size: 14px;}
+section.findPlan_section {padding: 30px 0 50px;}
+
+section.affiliate_banner .affiliate_img{height: 370px;}
+section.contact_section .contact_list ul li a {font-size: 15px;}
+}
+
+
+@media screen and (max-width: 991px) {
+
+section.header_section ul.main_nav.navbar-nav {text-align: center;padding: 70px 0px;}
+section.header_section  ul li { text-align: center;}
+section.header_section ul.main_nav.navbar-nav  li a {margin-bottom: 5px;text-align: center;margin-left: 0;}
+section.header_section .navbar ul li.active a.nav-link,
+section.header_section .navbar ul li a.nav-link:hover
+{color: #009BDD;border-bottom: none;}
+section.header_section .toggle_menu {border: none;padding: 0;}
+section.header_section .toggle_menu.navbar-toggler:focus {box-shadow: none !important;}
+
+section.header_section .bars .bar1,.bar2,.bar3
+{width: 23px;height: 2px;background-color: #009BDD;margin: 5px 0;transition: 0.4s;border-radius: 20px;}
+section.header_section .navbar-expand-lg .navbar-nav .nav-link:hover {border: 0;}
+section.header_section .toggle_menu.navbar-toggler {position: absolute;right: 0;top: 0;height: 100%;-webkit-justify-content: center;justify-content: center;display: flex;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;}
+section.header_section ul.header_btn {text-align: center;}
+section.header_section .header_menu {display: none;width: 50%;position: fixed;top: 0;right: 0;height: 100%;background-color: #fff;
+    z-index: 99;overflow-y: auto;padding: 0;}
+
+section.header_section span.slide-toggle {display: block;cursor: pointer;position: absolute;height: 30px;width: 30px;
+    font-size: 18px;right: 30px;top: 20px;text-align: center;}
+section.header_section span.slide-toggle i {color: #009BDD;font-size: 22px;}
+section.header_section .navbar ul.main_menu li {margin-left: 0;margin-bottom: 10px;}
+section.header_section .navbar ul li.active a.nav-link::before,
+section.header_section .navbar ul li a.nav-link:hover::before{display: none;}
+section.header_section ul.navbar-nav.ml-auto.main_menu {padding-top: 80px;}
+
+section.banner_section{padding: 50px 0px;}
+section.banner_section .Welcome_txt {padding-top: 0;}
+.main_title{font-size: 30px;}
+
+section.latest_section .latest_subtitle h5{font-size: 22px;}
+section.latest_section .blue_content h6,
+section.choose_section .choose_icon h6{font-size: 18px;}
+
+section.findPlan_section .start_btn a{max-width: 80%;}
+
+section.latest_section .blue_content {text-align: center;}
+section.latest_section .blue_content.blue_content2 {text-align: center;margin-top: 10px;}
+
+section.findPlan_section .plan_box{margin-bottom: 40px;}
+
+
+
+section.footer_section .copy_right p{font-size: 12px;}
+section.payout_section .input_checklink {
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+section.banner_section .Welcome_txt h2{font-size: 25px;margin-bottom: 10px;}
+section.banner_section .input_form {margin-top: 30px;}
+
+.main_title,
+section.contact_section .contact_title h2{font-size: 25px;}
+section.findPlan_section {padding: 30px 0 10px;}
+section.findPlan_section .findPlan_title p{max-width: 100%;margin-bottom: 35px;}
+
+section.latest_section .blue_content h6,
+section.choose_section .choose_icon h6 {font-size: 16px;}
+
+section.footer_section {padding: 30px 0px 30px;}
+section.footer_section .footer_menu_list ul li{margin-left: 15px;}
+section.footer_section .footer_menu_list ul li a{font-size: 14px;}
+
+section.copyright_section .copy_title p{font-size: 12px;}
+
+section.affiliate_banner .order2,
+section.faq_banner .order2,
+section.contact_banner .order2,
+section.payout_banner .order2{order: 1;}
+
+section.affiliate_banner .affiliate_banner_txt,
+section.contact_banner .contact_banner_txt,
+section.payout_banner .payout_banner_txt  {margin-top: 30px;}
+
+section.contact_section .contact_contain{margin-top: 25px;}
+section.contact_section .send_btn a{width: 50%;}
+section.payout_section .payout_box{margin-bottom: 20px;}
+section.payout_banner .payout_img,
+section.faq_banner .faq_img{width: 100%;}
+}
+
+@media screen and (max-width: 575px) {
+
+section.payout_section .payout_contain.payout_contain_right {
+    float: right;}
+section.payout_section .payout_icon {
+    float: initial;
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 540px) {
+
+section.header_section .header_menu{width: 100%;}
+}
+
+
+@media screen and (max-width: 480px) {
+
+section.banner_section .Welcome_txt h2,
+.main_title,
+section.latest_section .latest_subtitle h5,
+.main_title, section.contact_section .contact_title h2 {font-size: 20px;}
+
+section.banner_section p.welcome_des,
+section.payout_section p.right_subtxt,
+section.payout_section p.subtxt_list{font-size: 14px;}
+
+
+section.footer_section {padding: 25px 0px 25px;}
+section.footer_section .footer_logo,
+section.payout_banner .payout_banner_txt,
+section.faq_banner .faqBanner_txt,
+section.contact_banner .contact_banner_txt {margin-bottom: 10px;}
+section.footer_section .footer_menu_list ul li {margin-left: 13px;}
+
+section.footer_section .footer_menu_list ul li a {font-size: 12px;}
+section.banner_section.home_banner {padding: 35px 0px;background-image: linear-gradient(#40C2F9, #006FDD);}
+section.faq_section .accordion a{padding: 10px 10px;font-size: 13px;}
+section.contact_section .contact_list ul li a {font-size: 14px;}
+
+section.affiliate_banner .affiliate_banner_txt,
+section.contact_banner .contact_banner_txt,
+section.payout_banner .payout_banner_txt {margin-top: 20px;}
+}
+
+@media screen and (max-width: 414px) {
+section.affiliate_banner .affiliate_banner_txt,
+section.contact_banner .contact_banner_txt,
+section.payout_banner .payout_banner_txt {
+    margin-top: 0;
+}
+
+}
+@media screen and (max-width: 360px) {
+section.payout_banner .payout_banner_txt {
+    margin-top: 0px;}
+}
+@media screen and (max-width: 320px) {}

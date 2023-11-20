@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Litecoin (LTC) Mining Pool - Support</title>
+      <meta name="description" content="LtcMiner is Litecoin miner with fully automatic process. Start earning Litecoin now!">
+      <meta name="keywords" content="litecoin, ltc, ltc miner, litecoin miner, earning litecoin, earning ltc, free ltc, free litecoin, start earning, earning"/>
+      <!-- Bootstrap Css -->
+      <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Style Css -->
+      <link rel="stylesheet" href="vendor/css/style.css?2663558812">
+      <link rel="stylesheet" href="vendor/css/responsive.css">
+      <!-- Google Font
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+       Font Awesome -->
+       <style type="text/css">@import url("https://fonts.googleapis.com/css?family=Muli&t=7746165483");</style>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="vendor/dist/assets/owl.carousel.css" />
+      <link rel="stylesheet" type="text/css" href="vendor/dist/assets/owl.theme.default.min.css" />
+      <script src="vendor/jquery/jquery-3.6.0.min.js"></script>
+   </head>
+   <body>
+      <!-- Header Section -->
+      <section class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg main_nav">
+               <a class="navbar-brand" href="/">
+               	<img src="images/logo.png?8444407074" class="img-fluid logo_img">
+               </a>
+               <button class="toggle_menu navbar-toggler" type="button" id="menu_toggle_btn">
+                  <div class="bars">
+                     <div class="bar1"></div>
+                     <div class="bar2"></div>
+                     <div class="bar3"></div>
+                  </div>
+               </button>
+               <div class="collapse navbar-collapse header_menu" id="header_menu">
+                  <span class="slide-toggle">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                  </span>
+                  <ul class="navbar-nav ml-auto main_menu">
+                     <li class="nav-item ">
+                        <a class="nav-link" href="/">Главная</a>
+                     </li>
+                     <li class="nav-item ">
+                     <a class="nav-link" href="account">Account</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link" href="payouts">Выплаты</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link" href="faq">Часто задаваемые вопросы</a>
+                     </li>
+                      <li class="nav-item active"">
+                        <a class="nav-link" href="support">Контакт</a>
+                     </li>
+
+                    </ul>
+               	         <div class="nav-wrapper">
+                          <div class="sl-nav">
+                            <ul>
+                              <li><b>Rússia</b> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                <div class="triangle"></div>
+                                <ul>
+                                  <li><i class="sl-flag flag-en"><div id="en"></div></i> <span><a class="change-lang-a" data-to="en" href="?lang=en">English - US</a></span></li>
+                                  <li><i class="sl-flag flag-sa"><div id="sa"></div></i> <span><a class="change-lang-a" data-to="sa" href="?lang=sa">Arabic</a></span></li>
+                                  <li><i class="sl-flag flag-ch"><div id="ch"></div></i> <span><a class="change-lang-a" data-to="ch" href="?lang=ch">Chinês - Mandarim</a></span></li>
+                                  <li><i class="sl-flag flag-es"><div id="es"></div></i> <span><a class="change-lang-a" data-to="es" href="?lang=es">Espanhol</a></span></li>
+                                  <li><i class="sl-flag flag-fr"><div id="fr"></div></i> <span><a class="change-lang-a" data-to="fr" href="?lang=fr">Francês</a></span></li>
+                                  <li><i class="sl-flag flag-id"><div id="id"></div></i> <span><a class="change-lang-a" data-to="id" href="?lang=id">Indonésia</a></span></li>
+                                  <li><i class="sl-flag flag-br"><div id="br"></div></i> <span><a class="change-lang-a" data-to="br" href="?lang=br">Português - Brazil</a></span></li>
+                                  <li><i class="sl-flag flag-ru"><div id="ru"></div></i> <span><a class="change-lang-a" data-to="ru" href="?lang=ru">Rússia</a></span></li>
+                                  <li><i class="sl-flag flag-vn"><div id="vn"></div></i> <span><a class="change-lang-a" data-to="vn" href="?lang=vn">Vietnã</a></span></li>
+
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+               </div>
+            </nav>
+         </div>
+      </section>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".change-lang-a").click(function(){
+			$.post('task/?',{"task":"changeLang","from":"RU","to":$(this).data("to")});
+		 });
+	});
+</script><section class="banner_section contact_banner">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center order2">
+                  <div class="contact_banner_txt">
+
+                     <h2 class="main_title">У вас есть какие-то вопросы?</h2>
+                     <p class="welcome_des">Перед тем, как задать вопрос оператору службы поддержки, пожалуйста, внимательно прочтите раздел <span class="faq_txt">ЧАВО</span> и если вы не нашли ответ на свой вопрос, свяжитесь с нашей службой поддержки ниже.</p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order1">
+                  <div class="contact_img"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+       <section class="contact_section">
+         <div class="container">
+            <div class="contact_title">
+               <h2 class="main_title">Наши контакты</h2>
+            </div>
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="contact_form1">
+                     <form class="contact1">
+                              <div class="" id="alert" style="display:none;" role="alert"></div>
+                              <div class="contact_input1">
+                                 <label>Имя</label>
+                                 <input type="name" class="form-control" id="name" placeholder="Введите свое имя" name="name">
+                              </div>
+                              <div class="contact_input1">
+                                 <label>Адрес электронной почты</label>
+                                 <input type="email" class="form-control" id="email" placeholder="Введите свой адрес электронной почты" name="email">
+                              </div>
+
+                              <div class="contact_input1">
+                                 <label>Сообщение</label>
+                                 <textarea class="form-control"  placeholder="Введите свой текст" rows="3" id="msg" name="text"></textarea>
+                              </div>
+                        <div class="send_btn text-center">
+                           <a href="#" class="btn send_btn btn-field">Отправить сообщение</a>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="contact_contain">
+                     <div class="contact_detail">
+                        <div class="contact_list">
+                           <ul>
+                              <li>
+                                 <a href="#">
+                                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    <div class="detail_contact">
+                                       <p>Адрес электронной почты</p>
+                                        <img src="images/imgEmail.png" />
+                                    </div>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" >
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </span>
+                                    <div class="detail_contact">
+                                       <p>Адрес</p>
+                                       20-22 Wenlock Road, London,<br> England, N1 7GU
+                                    </div>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+       <script>
+        $(document).ready(function(){
+            $('.btn-field').click(function(e){
+              	e.preventDefault();
+				$("#alert").css("display", "none");
+				$.getJSON("task/?task=supportMessage&name="+$("#name").val()+"&email="+$("#email").val()+"&message="+$("#msg").val(), function(result){
+				  if(result['error']==true){
+					 $("#alert").html(result['error_msg']);
+					 $("#alert").removeClass("alert alert-success").addClass("alert alert-danger");
+					 $("#alert").css("display", "");
+				  }else{
+					  $("#alert").html(result['response']);
+					  $("#alert").removeClass("alert alert-danger").addClass("alert alert-success");
+					  $("#alert").css("display", "");
+				  }
+				});
+            });
+        });
+    </script>
+﻿<!-- Footer Section -->
+      <section class="footer_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Close Footer section  -->
+      <!-- Copyright Section -->
+      <section class="copyright_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                   <div class="copy_title">
+                        <p class="">LiteCoin Miner Copyright © 2018 - 2023. All Rights Reserved</p>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Close Footer Section -->
+      <script src="vendor/js/bundle/bootstrap.bundle.js?v=5762950662"></script>
+		<script>
+			 //Side Toggle
+			 $(".slide-toggle, #menu_toggle_btn").click(function() {
+				$(".header_menu").animate({
+				   width: "toggle",
+				});
+			 });
+      </script>
+   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8271f6de08b05bb7","r":1,"version":"2023.10.0","token":"c4c52e33859a4a5ab0d78552085f7652"}' crossorigin="anonymous"></script>
+</body>
+</html>
